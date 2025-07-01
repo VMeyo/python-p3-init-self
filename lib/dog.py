@@ -1,14 +1,21 @@
-#!/usr/bin/env python3
+# A class that defines name and breed of a dog
 
 class Dog:
-    def __init__(self, name, breed="Mutt"):
+    def __init__(self, name, breed="Mutt"): # Assign breed default of 'Mutt"
         self.name = name
         self.breed = breed
 
-    def bark(self):
-        print("Woof!")
+    # An instance of dog
+    def name(self):
+        print("Fulffy")
 
-    def sit(self):
-        print("The dog is sitting.")             
+    # An instance of breed
+    def breed(self):
+        print("Mutt")    
+    
+
+
+    
+                
 
     
